@@ -1,3 +1,142 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.top {
+    background-color: #1F2937;
+    color:rgb(255, 255, 255);
+    padding: 0px 200px 50px 200px;
+}
+
+.top img {
+    height: 300px;
+}
+
+.top ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.top_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+
+.random_info img {
+    object-fit: cover;
+    height: 175px;
+    width: 175px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 5px 15px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.random_info {
+ padding: 30px 300px;
+}
+
+.random_infos {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    gap: 40px;
+    margin: 50px 0px;
+}
+
+.info_sec {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 50px 100px;
+    font-weight: light;
+    font-style: italic;
+    padding: 50px 300px;
+    
+}
+
+.quoter {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+}
+
+.sign_up {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+h4 {
+    margin: 0px;
+    font-size: 25px;;
+}
+.sign_up_text p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.sign_up button {
+    border: 1px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
 }
